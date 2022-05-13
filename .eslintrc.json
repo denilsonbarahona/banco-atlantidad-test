@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"],
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "react/jsx-filename-extension": [0],
+        "react/function-component-definition": [0, {
+            "namedComponents": ["function-declaration" , "function-expression" , "arrow-function"],
+            "unnamedComponents": ["function-expression" , "arrow-function"]
+          }],
+        "arrow-body-style": [0, "as-needed"],
+        "default-param-last": [0]
+    },
+    "parser": "@babel/eslint-parser"
+}

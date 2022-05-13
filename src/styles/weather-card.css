@@ -1,0 +1,24 @@
+.weather-card {
+  border: 3px solid black;
+  inline-size: 120px;
+  block-size: 120px;
+}
+
+.weather-card__title {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+  border-block-end: 3px solid black;
+}
+
+.weather-card__figure {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+
+.weather-card__caption {
+  font-size: 0.8rem;
+  text-align: center;
+}

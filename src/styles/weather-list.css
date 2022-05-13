@@ -1,0 +1,12 @@
+.weather {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.weather_item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
